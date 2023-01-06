@@ -1,10 +1,10 @@
 # googleform_filler
 
-Notes:
+Notes: <br>
 This is only a default setting of a specific google form.
 If you want to have your own form automatically filled, you will need to find your id and change it.
 
-Setting:
+Setting:<br>
 Selenium: the command here are used for version below 4.0, please type: <br>
 """
 pip3 install selenium==3.9
