@@ -1,10 +1,10 @@
 # googleform_filler
 
-### Notes: <br>
+### Notes<hr> <br>
 This is only a default setting of a specific google form.
 If you want to have your own form automatically filled, you will need to find your id and change it.
 
-### Setting:<br>
+### Setting<hr><br>
 Selenium: the methods of selenium in my code are used of version below 4.0, please type: <br>
 To check the version of your selenium or if you have downloaded before:
 ```
@@ -20,7 +20,7 @@ pip3 install selenium==3.9
 Also the Chormedriver should be matching your chrome's version
 Go to setting of chorme, and about Chrome, check your version and download the corresponding one.
 
-### Controlling the distribution of selection
+### Controlling the distribution of selection<hr>
 
 This require some basis knowledge of probability and statistic.<br>
 
@@ -39,7 +39,7 @@ choice = random.choice(['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'B'])
 
 ```
 
-### XPath
+### XPath<hr>
 To auto fill the answer, you should get the XPath of the button/ text. <br><br>
 
 Step 1: <br>
