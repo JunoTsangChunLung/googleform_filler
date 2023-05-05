@@ -5,7 +5,7 @@ This is only a default setting of a specific google form.
 If you want to have your own form automatically filled, you will need to find your id and change it.
 
 ### Setting:<br>
-Selenium: the command here are used for version below 4.0, please type: <br>
+Selenium: the methods of selenium in my code are used of version below 4.0, please type: <br>
 To check the version of your selenium or if you have downloaded before:
 ```
 pip3 freeze | grep selenium
