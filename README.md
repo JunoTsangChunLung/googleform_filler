@@ -1,10 +1,18 @@
 # googleform_filler
 
-### Notes<hr> <br>
-This is only a default setting of a specific google form.
-If you want to have your own form automatically filled, you will need to find your id and change it.
+### Notes<hr>
+For your own application, you should use your own driver that fits your chrome/firefox/safari version, download it and put it somewhere.<br>
+If you are using vscode, right click the driver and copy the path, and replace the empty string below to the path.
+```Python
+driverpath = ""
+```
 
-### Setting<hr><br>
+For your own google form, you should replace the url with the empty string below:
+```Python
+googleform_url = ""
+```
+
+### Setting<hr>
 Selenium: the methods of selenium in my code are used of version below 4.0, please type: <br>
 To check the version of your selenium or if you have downloaded before:
 ```
