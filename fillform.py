@@ -6,9 +6,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 import random
 import time
 
-driver = webdriver.Chrome("/Users/junotsang/Library/CloudStorage/OneDrive-HKUSTConnect/ust/academic/Yr4 Spring/IEDA 4200/Project/googleform_filler/chromedriver")
+driverpath = ""
+googleform_url = ""
 
-url = "https://docs.google.com/forms/d/e/1FAIpQLSeTAmGzdYVqv_kxEmHQqjXMK2ZNzpzP0qDpk-xtKl3PhtWHxg/viewform?usp=sf_link"
+driver = webdriver.Chrome(driverpath)
+
+url = googleform_url
 
 driver.get(url)
 
