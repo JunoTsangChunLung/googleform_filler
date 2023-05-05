@@ -42,19 +42,19 @@ build = {
 
 def fill_form():
     #Station
-    button = random.choice(['1', '1', '1', '2', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '4', '4', '5', '5', '5', '5', '5', '5', '5', '5', '5', '6', '6', '7', '8', '9', '9', '9', '10', '10', '11', '12', '13', '14', '15'])
+    button = random.choice(['1', '1', '1', '2', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '4', '4', '4', '4', '5', '5', '5', '5', '5', '5', '5', '5', '5', '6', '6', '7', '8', '9', '9', '9', '10', '10', '11', '12', '13', '14', '15', '15', '15', '15'])
     choice = station[button]
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, choice)))
     driver.find_element_by_xpath(choice).click()
 
     #Wanna eat?
-    button = random.choice(['1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1','2'])
+    button = random.choice(['1', '1', '1', '1', '1', '1', '1', '1','1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1','2'])
     choice = eat[button]
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, choice)))
     driver.find_element_by_xpath(choice).click()
 
     #Wanna build?
-    button = random.choice(['1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1','2'])
+    button = random.choice(['1', '1', '1', '1', '1', '1', '1','1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1','2'])
     choice = build[button]
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, choice)))
     driver.find_element_by_xpath(choice).click()
@@ -64,7 +64,7 @@ def fill_form():
     driver.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[3]/div/div[1]/div/span').click()
 
 
-for i in range(3):
+for i in range(400):
     driver.implicitly_wait(15)
     fill_form()
     driver.implicitly_wait(15)
